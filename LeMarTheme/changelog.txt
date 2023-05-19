@@ -1,0 +1,8 @@
+Version 1.0
+Release the template
+
+Version 1.1
+ADDED:
+- RTL version
+- New Home Page
+- Shop Pages
