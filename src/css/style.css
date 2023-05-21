@@ -1126,13 +1126,14 @@ img.alignright {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 500;
+    padding-bottom: 20px;
 }
 
 .mad-vr-menu:after,
 .mad-vr-menu:before {
     content: '';
     position: absolute;
-    top: 100%;
+    top: 18px;
     width: 100%;
     height: 2px;
     background: #fff;
@@ -7813,16 +7814,16 @@ textarea {
 /* ----------------------------------------
         Home
     ---------------------------------------- */
-.blur-down {
-    position: relative;
-}
-
-.blur-down::before {
-    content: '';
-    position: absolute;
+.custom-header {
+    background-color: transparent;
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0px;
     left: 0;
-    top: 0;
     right: 0;
-    bottom: 0;
-    background-color: red;
+    z-index: 2;
+    transition: background-color 300ms ease-in-out;
+}
+.custom-header.is-sticky {
+    background-color: #00283f;
 }

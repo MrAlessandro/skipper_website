@@ -35,15 +35,15 @@
   <!--================ Vendor JS ================-->
 </head>
 
-<body>
+<body style="position: relative">
   <div class="mad-preloader"></div>
-  <div id="mad-page-wrapper" class="mad-page-wrapper">
+  <div id="mad-page-wrapper" class="mad-page-wrapper" >
 
     <!--================ Header ================-->
-    <header id="mad-header" class="mad-header header-1 mad-header--transparent">
+    <!--<header id="mad-header" class="mad-header header-1 mad-header&#45;&#45;transparent">
       <div class="container">
-        <!--================ Section ================-->
-        <div class="mad-header-section mad-header-section--sticky-xl">
+        &lt;!&ndash;================ Section ================&ndash;&gt;
+        <div class="mad-header-section mad-header-section&#45;&#45;sticky-xl">
           <div class="mad-header-items item-col-2">
             <div class="mad-header-item">
             </div>
@@ -52,7 +52,12 @@
             </div>
           </div>
         </div>
-        <!--================ End of Section ================-->
+        &lt;!&ndash;================ End of Section ================&ndash;&gt;
+      </div>
+    </header>-->
+    <header class="custom-header">
+      <div class="container" style="display: flex; justify-content: end">
+        <button class="mad-vr-menu" data-arctic-modal="#mad-modal">Menu</button>
       </div>
     </header>
     <!--================ End of Header ================-->
@@ -88,7 +93,7 @@
         <h1 style="color: white; text-align: center; margin: 18px 0; line-height: 1.2; font-size: 3.8rem;">
           Trattoria Skipper
         </h1>
-        <img src="images/skipper_elements.svg" alt="" style="height: auto; width: 80vw;">
+        <img src="images/skipper_elements.svg" alt="" style="height: auto; width: 80vw; max-width: 450px">
       </div>
     </div>
     <!--================ End of Slider Revolution ================-->
@@ -1220,6 +1225,20 @@
   <script src="js/modules/mad.newsletter-form.min.js"></script>
   <script src="js/modules/mad.sticky-header-section.min.js"></script>
   <script src="js/mad.app.js"></script>
+  <script>
+    $(document).ready(() => {
+      const $header = $('.custom-header');
+      const handleScroll = () => {
+        if (window.scrollY == 0) {
+          $header.removeClass('is-sticky');
+        } else {
+          $header.addClass('is-sticky');
+        }
+      }
+
+      $(window).on('scroll', handleScroll);
+    })
+  </script>
 </body>
 
 </html>
