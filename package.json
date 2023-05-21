@@ -1,11 +1,12 @@
 {
   "name": "skipper",
-  "version": "1.0.0",
-  "author": "MrAlessandro",
-  "description": "Skipper's website repository",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/MrAlessandro/skipper.git"
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server src"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
