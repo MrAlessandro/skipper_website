@@ -1154,7 +1154,7 @@ img.alignright {
 }
 
 .mad-vr-wrap {
-    background: url(../images/footer_bottom_img_2.png) no-repeat bottom center;
+    background: url(../images/skipper_footer.svg) no-repeat bottom center;
     width: 100%;
     height: 100%;
     padding: 2rem;
@@ -7438,7 +7438,7 @@ textarea {
 .mad-spec-header .mad-line {
     height: 1.125rem;
     flex: 1;
-    border-bottom: 2px dotted #7a7879;
+    /*border-bottom: 2px dotted #7a7879;*/
 }
 
 .mad-spec-header:not(:last-child) {
@@ -7824,6 +7824,11 @@ textarea {
     z-index: 2;
     transition: background-color 300ms ease-in-out;
 }
+
 .custom-header.is-sticky {
     background-color: #00283f;
+}
+
+.mad-spec-price {
+    display: none;
 }

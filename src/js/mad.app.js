@@ -2576,7 +2576,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
                         styles: [{ featureType: 'all', stylers: [{ saturation: -100 }, { gamma: 0.0 }] }]
@@ -2591,9 +2591,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2614,7 +2614,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2628,9 +2628,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2651,7 +2651,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2665,9 +2665,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2688,7 +2688,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2702,9 +2702,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2725,7 +2725,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2739,9 +2739,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2762,7 +2762,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2776,9 +2776,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2799,7 +2799,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2813,9 +2813,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2836,7 +2836,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2850,9 +2850,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2873,7 +2873,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2887,9 +2887,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2910,7 +2910,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2924,9 +2924,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2947,7 +2947,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2961,9 +2961,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -2984,7 +2984,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
@@ -2998,9 +2998,9 @@ var Mad = (function($){
                     }
 
                     var marker = new google.maps.Marker({
-                        position: { lat: 51.503454, lng: -0.124755 },
+                        position: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         map: map,
-                        icon: 'images/map_marker.png'
+                        // icon: 'images/map_marker.png'
                     });
 
                     marker.setMap(map);
@@ -3021,7 +3021,7 @@ var Mad = (function($){
 
                 function loadMap() {
                     var mapProp = {
-                        center: { lat: 51.503454, lng: -0.124755 },
+                        center: { lat: 43.77644120870568, lng: 10.459434706484583 },
                         zoom: 14,
                         mapTypeId: google.maps.MapTypeId.ROADMAP
 
@@ -3052,7 +3052,7 @@ var Mad = (function($){
                         var marker = new google.maps.Marker({
                             position: { lat: mark[1], lng: mark[2] },
                             map: map,
-                            icon: 'images/map_marker.png',
+                            // icon: 'images/map_marker.png',
                             title: mark[0],
                             zIndex: mark[3]
                         });
