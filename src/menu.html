@@ -66,7 +66,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!--================ Vendor JS ================-->
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="fc00ef19-0964-4c36-904a-f278576be0c7" data-blockingmode="auto" type="text/javascript"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="fc00ef19-0964-4c36-904a-f278576be0c7"
+            data-blockingmode="auto" type="text/javascript"></script>
     <script>
         const language = navigator.language || navigator.userLanguage;
         const languageCode = language.substring(0, 2);
@@ -99,14 +100,15 @@
     <header class="custom-header">
         <div class="container" style="display: flex; justify-content: space-between">
             <div>
-                <a style="color: white; cursor: pointer" class="mad-link">IT</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a style="color: white; cursor: pointer" class="mad-link">EN</a>
+                <a style="color: white; cursor: pointer" class="mad-link">IT</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+                    style="color: white; cursor: pointer" class="mad-link">EN</a>
             </div>
             <button class="mad-vr-menu" data-arctic-modal="#mad-modal">Menu</button>
         </div>
     </header>
     <!--================ End of Header ================-->
     <!--================ Slider Revolution ================-->
-    <div dir="ltr" class="rev_slider_wrapper fullscreenbanner-container">
+    <div dir="ltr" class="rev_slider_wrapper fullscreenbanner-container menu-page-hero">
         <div id="rev-slider-1" data-version="5.4.5" class="mad-d-none rev-slider no-nav fullscreenabanner">
             <ul>
                 <!--================ Slide 1 ================-->
@@ -133,11 +135,11 @@
             </ul>
         </div>
         <div class="mad-logo-slider" style="text-align: center; transform: translateY(-50%) translateX(-50%)">
-            <img src="images/skipper_icon_light.svg" alt="" style="height: 25vh; width: auto; margin-left: 18px">
-            <h1 style="color: white; text-align: center; margin: 18px 0; line-height: 1.2; font-size: 3.8rem;">
-                Trattoria Skipper
+            <img src="images/skipper_icon_light.svg" alt="" style="height: 12vh; width: auto; margin-left: 18px">
+            <h1 class="menu-page-hero-title"
+                style="color: white; text-align: center; margin: 18px 0; line-height: 1.2;">
+                Il nostro menù
             </h1>
-            <img src="images/skipper_elements.svg" alt="" style="height: auto; width: 80vw; max-width: 450px">
         </div>
     </div>
     <!--================ End of Slider Revolution ================-->
@@ -151,13 +153,30 @@
                 <div class="mad-tabs">
                     <!--================ Tabs Navigation ================-->
                     <div role="tablist" aria-label="Tabs v1" class="mad-tabs-nav justify-content-center">
-                <span class="mad-active"><a id="tab-1-link" href="#tab-1" role="tab" aria-selected="false"
-                                            aria-controls="tab-1"
-                                            class="mad-tab-link">Food Menu</a>
-                </span>
-                        <span><a id="tab-2-link" href="#tab-2" role="tab" aria-selected="true" aria-controls="tab-2"
-                                 class="mad-tab-link">Drink Menu</a>
-                </span>
+                        <span class="mad-active">
+                            <a id="tab-1-link" href="#tab-1"
+                               role="tab" aria-selected="false"
+                               aria-controls="tab-1"
+                               class="mad-tab-link">
+                                Menù di Mare
+                            </a>
+                        </span>
+                        <span>
+                            <a id="tab-2-link" href="#tab-2"
+                               role="tab" aria-selected="true"
+                               aria-controls="tab-2"
+                               class="mad-tab-link">
+                                Menu di Terra
+                            </a>
+                        </span>
+                        <span>
+                            <a id="tab-3-link" href="#tab-3"
+                               role="tab" aria-selected="true"
+                               aria-controls="tab-3"
+                               class="mad-tab-link">
+                                Carta dei vini
+                            </a>
+                        </span>
                     </div>
                     <!--================ End of Tabs Navigation ================-->
                     <!--================ Tabs Container ================-->
@@ -980,6 +999,421 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="tab-3" tabindex="0" role="tabpanel" aria-labelledby="tab-1-link" class="mad-tab">
+                            <div class="mad-specs-section">
+                                <div class="row row-lg-reverse">
+                                    <div class="col-lg-6">
+                                        <!-- Our Specifications -->
+                                        <div class="mad-specs">
+                                            <h4>Starters</h4>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Santorini Fava</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$7.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">warm fava, red onion, capers</div>
+                                                            <a href="#" class="mad-link">vegetarian</a>,
+                                                            <a href="#" class="mad-link">vegan</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Kopanisti</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$9.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">roasted red pepper, feta, boukovo
+                                                                chili
+                                                            </div>
+                                                            <a href="#" class="mad-link">vegetarian</a>,
+                                                            <a href="#" class="mad-link">vegan</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Cured Sea Trout</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$6.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">roast beetroot & beetroot ketchup
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Seafood Soup</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$8.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">gruyere, garlic croutons &
+                                                                rouille
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Wild Red Tiger Prawns</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$11.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">herb butter, chargrilled
+                                                                sourdough
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                        </div>
+                                        <!-- End of Our Specifications -->
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <figure><img src="images/688x672_img1.jpg" alt=""></figure>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <figure><img src="images/688x584_img1.jpg" alt=""></figure>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!-- Our Specifications -->
+                                        <div class="mad-specs">
+                                            <h4>Salads</h4>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Side House</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$7.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">spring mix, tomato, cucumber,
+                                                                carrot
+                                                            </div>
+                                                            <a href="#" class="mad-link">vegetarian</a>,
+                                                            <a href="#" class="mad-link">vegan</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Louie</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$19.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">dungeness crab, mexican wild
+                                                                prawns, avocado, egg, tomato, cucumber,
+                                                                louie dressing
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Spinach &amp; Quinoa</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$12.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">avocado, egg, tomatoes, carrot
+                                                            </div>
+                                                            <a href="#" class="mad-link">vegetarian</a>,
+                                                            <a href="#" class="mad-link">vegan</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Cobb</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$18.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">mexican wild prawns, bacon,
+                                                                avocado, egg, tomatoes, blue cheese crumbles
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                        </div>
+                                        <!-- End of Our Specifications -->
+                                    </div>
+                                </div>
+                                <div class="row row-lg-reverse">
+                                    <div class="col-lg-6">
+                                        <!-- Our Specifications -->
+                                        <div class="mad-specs">
+                                            <h4>Mains</h4>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Charcoal Grilled Black Sea
+                                                                Bream
+                                                            </div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$17.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">salsa verde</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Tandoori Monkfish</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$22.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">charred gem, red cabbage &amp;
+                                                                carrot slaw, raita
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Chargrilled Seafood Platter
+                                                            </div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$34.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">seabream, red tiger prawns, squid,
+                                                                shellfish, chargrilled broccoli &amp;
+                                                                lemon (for 2 to share)
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Flat Iron Steak</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$15.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">chimmichurri</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Sicilian Seafoodstew</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$20.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">red mullet, shellfish, red tiger
+                                                                prawns, mint &amp; sourdough
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Beer Battered Fish &amp; Chips
+                                                            </div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$16.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">mushypeas</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Red Panang Malaysiancurry</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$18.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">bream fillet, red tiger prawns,
+                                                                basmati rice
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                        </div>
+                                        <!-- End of Our Specifications -->
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <figure><img src="images/688x800_img1.jpg" alt=""></figure>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <figure><img src="images/688x560_img1.jpg" alt=""></figure>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!-- Our Specifications -->
+                                        <div class="mad-specs">
+                                            <h4>Deserts</h4>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Whoopie Pie Alaska</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$12.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">chocolate cake, toasted
+                                                                marshmallow, toffee
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Croissant Bread Pudding</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$10.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">chocolate, pumpkin, banana caramel
+                                                                ice cream
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Apple Crumble</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$10.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">spiced crumble, vanilla ice cream
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                            <div class="mad-col">
+                                                <!-- Specification item -->
+                                                <div class="mad-spec-item">
+                                                    <div class="mad-spec-info">
+                                                        <div class="mad-spec-header">
+                                                            <div class="mad-spec-title">Sorbet of the Day</div>
+                                                            <div class="mad-line"></div>
+                                                            <div class="mad-spec-price">$9.00</div>
+                                                        </div>
+                                                        <div class="mad-spec-tags">
+                                                            <div class="mad-spec-el">ainting goat fruit sorbet</div>
+                                                            <a href="#" class="mad-link">vegetarian</a>,
+                                                            <a href="#" class="mad-link">vegan</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Specification item -->
+                                            </div>
+                                        </div>
+                                        <!-- End of Our Specifications -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!--================ End of Tab ================-->
                     </div>
                     <!--================ End of Tabs Container ================-->
@@ -1035,7 +1469,8 @@
         <div id="mad-modal" class="mad-modal">
             <!--================ Vr Menu ================-->
             <div class="mad-vr-wrap">
-                <a href="index.html" class="mad-logo"><img style="width: 53px; height: auto" src="images/skipper_icon.svg" alt=""></a>
+                <a href="index.html" class="mad-logo"><img style="width: 53px; height: auto"
+                                                           src="images/skipper_icon.svg" alt=""></a>
                 <button class="mad-menu-close arcticmodal-close"><i class="material-icons">close</i></button>
                 <nav class="mad-vr-nav">
                     <ul>
@@ -1174,7 +1609,8 @@
 
     })
 </script>
-<script id="CookieDeclaration" src="https://consent.cookiebot.com/fc00ef19-0964-4c36-904a-f278576be0c7/cd.js" type="text/javascript" async></script>
+<script id="CookieDeclaration" src="https://consent.cookiebot.com/fc00ef19-0964-4c36-904a-f278576be0c7/cd.js"
+        type="text/javascript" async></script>
 </body>
 
 </html>
