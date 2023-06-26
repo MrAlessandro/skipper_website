@@ -7837,11 +7837,12 @@ textarea {
 .menu-page-hero {
     max-height: 100vh;
 }
+
 .menu-page-hero-title {
     font-size: 2.8rem;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
     .menu-page-hero {
         max-height: 60vh;
@@ -7851,4 +7852,41 @@ textarea {
     .menu-page-hero-title {
         font-size: 3.8rem;
     }
+}
+
+.video-homepage-wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 3rem;
+
+}
+
+.menu-nav-tabs {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .video-homepage-wrapper {
+        max-height: 40vh;
+        min-height: 500px;
+        margin-top: 0;
+    }
+
+    .menu-nav-tabs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}
+
+
+.video-homepage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
