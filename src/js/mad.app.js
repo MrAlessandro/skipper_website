@@ -1088,7 +1088,7 @@ var Mad = (function($){
         Preloader
     ---------------------------------------- */
 
-        App.modules.preloader = function() {
+        /*App.modules.preloader = function() {
             var $preloader = $('.mad-preloader'),
                 leftPos = parseInt($preloader.css('margin-left'), 10),
                 topPos = parseInt($preloader.css('margin-top'), 10),
@@ -1138,7 +1138,7 @@ var Mad = (function($){
                     });
                 }
             });
-        };
+        };*/
 
     /* ----------------------------------------
         End of Preloader
