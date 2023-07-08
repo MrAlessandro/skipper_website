@@ -33,6 +33,7 @@
     <!--================ Theme CSS ================-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preload" as="image" href="images/photo_book/home_hero.jpg">
     <!--================ Vendor JS ================-->
     <script>
         const language = navigator.language || navigator.userLanguage;
@@ -80,7 +81,7 @@
                 <li data-transition="fade">
                     <!-- MAIN IMAGE -->
                     <img src="images/photo_book/home_hero.jpg" alt="" data-bgposition="top center" data-bgfit="cover"
-                         data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                         data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" loading="eager" data-no-retina>
                 </li>
             </ul>
         </div>
@@ -425,7 +426,9 @@
     </div>
 
     <div class="video-homepage-wrapper">
-        <video autoplay loop muted playsinline src="images/photo_book/video_home_720.mov"  class="video-homepage"  style=""></video>
+        <video autoplay muted loop playsinline class="video-homepage lazy" style="">
+            <source data-src="images/photo_book/video_home_720.mov" type="video/mp4">
+        </video>
         <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 33, 50, 0.6);"></div>
         <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; padding: 16px;">
             <h2 class="mad-cta-title" style="text-align: center; color: white">Avrete voglia di tornare</h2>
@@ -514,19 +517,51 @@
 <script src="js/modules/mad.sticky-header-section.min.js"></script>
 <script src="js/mad.app.js"></script>
 <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
+
+        if ("IntersectionObserver" in window) {
+            var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(video) {
+                    if (video.isIntersecting) {
+                        for (var source in video.target.children) {
+                            var videoSource = video.target.children[source];
+                            if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
+                                videoSource.src = videoSource.dataset.src;
+                            }
+                        }
+
+                        video.target.load();
+                        video.target.classList.remove("lazy");
+                        lazyVideoObserver.unobserve(video.target);
+                    }
+                });
+            });
+
+            lazyVideos.forEach(function(lazyVideo) {
+                lazyVideoObserver.observe(lazyVideo);
+            });
+        }
+    });
+
     $(document).ready(() => {
         const $header = $('.custom-header');
+        const $video = $('.video-homepage');
+
         const handleScroll = () => {
             if (window.scrollY == 0) {
                 $header.removeClass('is-sticky');
             } else {
                 $header.addClass('is-sticky');
             }
+
+/*            if (isVisible($video)) {
+                console.log('Play video');
+                $video.get(0).play();
+            }*/
         }
 
         $(window).on('scroll', handleScroll);
-
-
     })
 </script>
 <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
