@@ -1123,10 +1123,6 @@ var Mad = (function($){
                 });
             }).jQueryImagesLoaded().then(function(){
 
-
-            });
-
-            setTimeout(function () {
                 $preloader.addClass('mad-preloader--disappearing');
                 setTimeout(function() {
                     $preloader.remove();
@@ -1141,7 +1137,7 @@ var Mad = (function($){
                         easing: self.ANIMATIONEASING
                     });
                 }
-            }, 100);
+            });
         };
 
     /* ----------------------------------------
