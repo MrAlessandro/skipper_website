@@ -1,7 +1,4 @@
 User-agent: *
-
-# This was hitting our site and causing a lot of issues
-User-agent: AhrefsBot
-Crawl-Delay: 259200
+Allow: /
 
 Sitemap: https://www.trattoriaskipper.com/sitemap.xml
