@@ -363,7 +363,7 @@ var Mad = (function($){
             Revolution slider
 		------------------------------------------------ */
 
-            var $revSlider1 = $('#rev-slider-1'),
+            /*var $revSlider1 = $('#rev-slider-1'),
                 $revSlider2 = $('#rev-slider-2'),
                 revApi1,
                 revApi2;
@@ -426,7 +426,7 @@ var Mad = (function($){
                 });
             }
 
-            if(this.helpers.revArrowsOutside) this.helpers.revArrowsOutside();
+            if(this.helpers.revArrowsOutside) this.helpers.revArrowsOutside();*/
 
         /* ------------------------------------------------
             End of Revolution slider

@@ -1154,7 +1154,7 @@ img.alignright {
 }
 
 .mad-vr-wrap {
-    background: url(../images/skipper_footer.svg) no-repeat bottom center;
+    /*background: url(../images/skipper_footer.svg) no-repeat bottom center;*/
     width: 100%;
     height: 100%;
     padding: 2rem;
@@ -2023,7 +2023,7 @@ img.alignright {
     position: relative;
     color: #e2f5ff;
     padding: 8rem 0;
-    background: url(../images/skipper_footer.svg) no-repeat #00283f bottom center;
+    /*background: url(../images/skipper_footer.svg) no-repeat #00283f bottom center;*/
     background-size: contain;
 }
 
@@ -2069,7 +2069,7 @@ img.alignright {
 .mad-footer.style-2 {
     color: #7a7879;
     text-align: center;
-    background: url(../images/skipper_footer.svg) no-repeat transparent bottom center;
+    /*background: url(../images/skipper_footer.svg) no-repeat transparent bottom center;*/
 }
 
 .mad-footer.style-2 .mad-widget .mad-widget-title {
@@ -7889,4 +7889,32 @@ textarea {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.home-hero {
+    height: 100vh;
+    position: relative;
+}
+.home-hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 33, 50, 0.8);
+}
+.home-hero .home-hero-content {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-hero img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
