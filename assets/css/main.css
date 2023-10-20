@@ -1,0 +1,30 @@
+@import "typography.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --dark: 4, 10, 28;
+        --light: 240, 250, 255;
+        --std-grey: 139, 141, 143;
+        --primary-light: 87, 162, 204;
+        --primary-medium: 0, 81, 127;
+        --primary-dark: 0, 40, 63;
+    }
+}
+
+html, body {
+    @apply bg-light font-body;
+}
+
+.home-section {
+    @apply bg-no-repeat;
+}
+
+.button {
+    @apply py-4 px-5 bg-primary text-light hover:border-2 hover:border-primary hover:bg-light hover:text-primary transition-all;
+}
+
+

@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url('~/assets/fonts/Satisfy/Satisfy-Regular.eot');
+    src: url('~/assets/fonts/Satisfy/Satisfy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Satisfy/Satisfy-Regular.woff2') format('woff2'),
+    url('~/assets/fonts/Satisfy/Satisfy-Regular.woff') format('woff'),
+    url('~/assets/fonts/Satisfy/Satisfy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-MediumItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-MediumItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-MediumItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-ExtraBoldItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-ExtraBoldItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-ExtraBoldItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Medium.eot');
+    src: url('~/assets/fonts/Asap/Asap-Medium.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Medium.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Medium.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-ExtraBold.eot');
+    src: url('~/assets/fonts/Asap/Asap-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-ExtraBold.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-ExtraBold.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-LightItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-LightItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-LightItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-BoldItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-BoldItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-BoldItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-BlackItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-BlackItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-BlackItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Italic.eot');
+    src: url('~/assets/fonts/Asap/Asap-Italic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Italic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Italic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-SemiBoldItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-SemiBoldItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-SemiBoldItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-ThinItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-ThinItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-ThinItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-SemiBold.eot');
+    src: url('~/assets/fonts/Asap/Asap-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-SemiBold.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-SemiBold.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-ExtraLight.eot');
+    src: url('~/assets/fonts/Asap/Asap-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-ExtraLight.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-ExtraLight.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Regular.eot');
+    src: url('~/assets/fonts/Asap/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Regular.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Regular.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Bold.eot');
+    src: url('~/assets/fonts/Asap/Asap-Bold.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Bold.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Bold.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Black.eot');
+    src: url('~/assets/fonts/Asap/Asap-Black.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Black.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Black.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Thin.eot');
+    src: url('~/assets/fonts/Asap/Asap-Thin.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Thin.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Thin.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-Light.eot');
+    src: url('~/assets/fonts/Asap/Asap-Light.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-Light.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-Light.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('~/assets/fonts/Asap/Asap-ExtraLightItalic.eot');
+    src: url('~/assets/fonts/Asap/Asap-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('~/assets/fonts/Asap/Asap-ExtraLightItalic.woff2') format('woff2'),
+    url('~/assets/fonts/Asap/Asap-ExtraLightItalic.woff') format('woff'),
+    url('~/assets/fonts/Asap/Asap-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
