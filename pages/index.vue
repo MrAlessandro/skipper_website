@@ -63,10 +63,12 @@
             </div>
             <div class="container py-20">
                 <div class="relative max-w-[720px] mx-auto">
-                    <div class="carousel-prev-handle hidden md:block absolute -left-10 top-1/2 -translate-y-1/2 opacity-30">
+                    <div
+                        class="carousel-prev-handle hidden md:block absolute -left-10 top-1/2 -translate-y-1/2 opacity-30">
                         <Icon name="fluent-mdl2:chevron-left-med" class="text-4xl text-primary md:text-5xl"></Icon>
                     </div>
-                    <div class="carousel-next-handle hidden md:block absolute -right-10 top-1/2 -translate-y-1/2 opacity-30">
+                    <div
+                        class="carousel-next-handle hidden md:block absolute -right-10 top-1/2 -translate-y-1/2 opacity-30">
                         <Icon name="fluent-mdl2:chevron-right-med" class="text-4xl text-primary md:text-5xl"></Icon>
                     </div>
                     <Swiper
@@ -104,7 +106,15 @@
             </div>
         </div>
     </div>
-
+    <div id="section-5">
+        <div class="relative container !max-w-[1280px]">
+            <NuxtImg src="photo_book/5_1048.jpg" class="w-full h-[400px] md:h-[680px] object-cover"></NuxtImg>
+            <div class="w-full md:absolute -top-32 left-1/2 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
+                <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">{{$t('section5.title')}}</h3>
+                <p class="text-lg text-light">{{$t('section5.body')}}</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script setup lang="ts">
@@ -177,13 +187,13 @@ const section4BackgroundImg = computed(() => {
 
 #section-4 {
     background-size: 280px, 250px;
-    background-position: left -2rem top 1rem, right -1rem bottom -3rem;
+    background-position: left -2rem top 1rem, right -1rem bottom;
 }
 
 @media screen(lg) {
     #section-4 {
         background-size: 380px, 400px;
-        background-position: left -2rem top 1rem, right -1rem bottom -3rem;
+        background-position: left -2rem top 1rem, right -1rem bottom;
     }
 }
 

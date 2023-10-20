@@ -64,7 +64,10 @@ const messages = {
             ]
 
         },
-
+        section5: {
+            title: 'All\'aria aperta',
+            body: 'Goditi un\'esperienza culinaria all\'aperto sulla nostra veranda. Concediti un pranzo o una cena sotto il cielo aperto o all\'ombra dei nostri tigli mentre assapori i nostri piatti di pesce fresco e delizioso. L\'atmosfera renderà il tuo pasto ancora più speciale. Prenota ora e regalati un momento di piacere en plein air.',
+        }
     },
 }
 
