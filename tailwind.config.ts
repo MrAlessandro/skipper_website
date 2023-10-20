@@ -10,6 +10,7 @@ export default <Partial<Config>>{
                 primary: {
                     DEFAULT: 'rgba(var(--primary-medium), <alpha-value>)',
                     light: 'rgba(var(--primary-light), <alpha-value>)',
+                    lighter: 'rgba(var(--primary-lighter), <alpha-value>)',
                     dark: 'rgba(var(--primary-dark), <alpha-value>)',
                 },
                 "std-gray": 'rgba(var(--std-grey), <alpha-value>)'

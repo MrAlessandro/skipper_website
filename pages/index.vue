@@ -109,9 +109,22 @@
     <div id="section-5">
         <div class="relative container !max-w-[1280px]">
             <NuxtImg src="photo_book/5_1048.jpg" class="w-full h-[400px] md:h-[680px] object-cover"></NuxtImg>
-            <div class="w-full md:absolute -top-32 left-1/2 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
+            <div class="w-full md:absolute -top-32 left-1/2 md:-translate-x-1/3 lg:translate-x-0 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
                 <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">{{$t('section5.title')}}</h3>
                 <p class="text-lg text-light">{{$t('section5.body')}}</p>
+            </div>
+        </div>
+    </div>
+    <div id="section-6" class="mt-10">
+        <div class="relative container md:pl-52 md:pt-40 !max-w-[1280px]">
+            <NuxtImg src="photo_book/6_1048.jpg" class="w-full h-[400px] md:h-[650px] object-cover"></NuxtImg>
+<!--            <div class="w-full md:absolute -top-32 left-1/2 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
+                <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">{{$t('section5.title')}}</h3>
+                <p class="text-lg text-light">{{$t('section5.body')}}</p>
+            </div>-->
+            <div class="w-full md:absolute top-0 left-0 md:w-[550px]  bg-primary-lighter flex flex-col justify-around p-10 md:py-20 md:border-canvas-lg md:border-light mt-8 md:mt-0">
+                <h3 class="font-heading text-6xl lg:text-7xl text-primary-dark md:whitespace-nowrap mb-8 ">{{$t('section6.title')}}</h3>
+                <p class="text-lg text-primary-dark">{{$t('section6.body')}}</p>
             </div>
         </div>
     </div>
