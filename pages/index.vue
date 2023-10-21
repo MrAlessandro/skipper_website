@@ -199,10 +199,10 @@ const head = useHead({
             name: 'msapplication-TileColor',
             content: '#f0faff',
         },
-        {
+        /*{
             name: 'msapplication-config',
             content: img('favicons/browserconfig.xml'),
-        },
+        },*/
 
 
     ],
