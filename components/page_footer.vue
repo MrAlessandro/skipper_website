@@ -1,6 +1,6 @@
 <template>
     <footer id="footer"
-            class=" relative w-full text-lg pt-28 pb-36 flex flex-col items-center ">
+            class=" relative w-full text-lg pt-28 pb-28 lg:pb-36 flex flex-col items-center ">
         <NuxtImg src="skipper_logo.svg.png" class="w-[140px]"></NuxtImg>
         <div class="w-full text-center">
             <h3 class="mb-8 font-heading my-10 text-3xl">Trattoria Skipper</h3>

@@ -1,7 +1,7 @@
 <template>
     <nav class=" z-40 fixed left-0 top-0 right-0 text-primary bg-primary/80 transition-colors" :class="{
-        '!bg-primary/0': scrollTop,
-        'backdrop-blur-sm': !scrollTop
+        '!bg-primary/0': scrollTop || menuOpen,
+        'backdrop-blur-sm': !scrollTop && !menuOpen
     }">
         <div class="container flex justify-end items-center h-16">
             <span @click="menuOpen = !menuOpen" class="text-light">

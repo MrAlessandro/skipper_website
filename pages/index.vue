@@ -176,7 +176,7 @@
         </video>
         <div class="absolute inset-0 bg-primary-dark/60"></div>
         <div class="absolute inset-0 flex items-center justify-center p-8">
-            <h2 class="font-heading text-7xl text-center text-light">Avrete voglia di tornare</h2>
+            <h2 class="font-heading text-4xl lg:text-7xl text-center text-light">Avrete voglia di tornare</h2>
         </div>
     </section>
     <PageFooter></PageFooter>
