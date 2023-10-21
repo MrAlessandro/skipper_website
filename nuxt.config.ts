@@ -7,6 +7,10 @@ export default defineNuxtConfig({
         '@nuxt/image',
         'nuxt-swiper',
         '@nuxtjs/i18n',
+        /*['nuxt-gmaps', {
+            key: 'AIzaSyAGbxq8T1F7efMZm5qWC2FVF4AHiV0a7yU',
+            //you can use libraries: ['places']
+        }]*/
     ],
     css: ['@/assets/css/main.css'],
     i18n: {
@@ -26,5 +30,4 @@ export default defineNuxtConfig({
             '2xl': 1536
         },*/
     },
-
 })

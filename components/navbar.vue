@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed left-0 top-0 right-0 text-primary bg-primary/80 transition-colors" :class="{
+    <nav class=" z-40 fixed left-0 top-0 right-0 text-primary bg-primary/80 transition-colors" :class="{
         '!bg-primary/0': scrollTop,
         'backdrop-blur-sm': !scrollTop
     }">
@@ -9,11 +9,18 @@
             </span>
         </div>
     </nav>
+    <client-only>
+        <Menu :open="menuOpen"></Menu>
+        <template #fallback>
+            <span></span>
+        </template>
+    </client-only>
 
 </template>
 
 <script setup lang="ts">
 import {onMounted} from "vue";
+import Menu from "~/components/menu.vue";
 
 const scrollTop = ref<boolean>(true);
 const menuOpen = ref<boolean>(false);

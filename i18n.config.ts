@@ -71,6 +71,16 @@ const messages = {
         section6: {
             title: 'Eventi Speciali',
             body: 'Unisciti a noi per pranzi e cene indimenticabili, sia che tu stia festeggiando Natale, Capodanno o altre celebrazioni speciali. Gusta i sapori festosi dei nostri piatti, in un\'atmosfera accogliente e festosa. Rimani aggiornato per non perderti neanche un boccone.',
+        },
+        section8: {
+            title1: 'Dove siamo',
+            actionLabel1: 'Indicazioni',
+            title2: 'Contatti',
+            bannerTitle: 'Siamo aperti',
+            bannerTitle1: 'Pranzo',
+            bannerBody1: 'Tutti i giorni: 12:00 – 15:00',
+            bannerTitle2: 'Cena',
+            bannerBody2: 'Lunedì – Sabato: 19:30 - 22:30',
         }
     },
 }
