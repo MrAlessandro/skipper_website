@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     image: {
         inject: true,
         dir: 'assets/images',
-        /*quality: 80,*/
+        quality: 80,
         /*screens: {
             'xs': 320,
             'sm': 640,
