@@ -1,6 +1,6 @@
 <template>
     <Navbar class="z-10"></Navbar>
-    <NuxtImg class="h-screen w-screen object-cover object-center" src="photo_book/home_hero.jpg" sizes="1280px"></NuxtImg>
+    <NuxtImg class="h-screen w-screen object-cover object-center" src="photo_book/home_hero.jpg"></NuxtImg>
     <section
         class="absolute top-0 left-0 right-0 h-screen w-screen flex items-center justify-center bg-primary-dark/80">
         <div class="flex flex-col items-center">
