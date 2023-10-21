@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://trattoriaskipper.com/sitemap_index.xml
+Sitemap: https://trattoriaskipper.com/sitemap.xml
 # END nuxt-simple-robots

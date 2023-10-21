@@ -15,25 +15,23 @@ export default defineNuxtConfig({
             defaultLocale: 'it',
             identity: {
                 type: 'Organization',
-
             },
         }],
-        ['nuxt-simple-sitemap', {
-            hostname: 'https://trattoriaskipper.com',
-        }],
+        'nuxt-simple-sitemap',
         ['nuxt-simple-robots', {}]
     ],
     site: {
         url: 'https://trattoriaskipper.com',
     },
+    sitemap: {
+        debug: false,
+        autoI18n:false,
+    },
     nitro: {
         prerender: {
             crawlLinks: true,
-            routes: ['/', 'sitemap.xml'],
+            routes: ['/', '/sitemap.xml', '/legal_informations_it', '/privacy_policy_it'],
         },
-    },
-    runtimeConfig: {
-        indexable: true
     },
     css: ['@/assets/css/main.css'],
     i18n: {
