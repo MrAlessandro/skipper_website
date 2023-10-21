@@ -9,13 +9,7 @@
             </span>
         </div>
     </nav>
-    <client-only>
-        <Menu :open="menuOpen"></Menu>
-        <template #fallback>
-            <span></span>
-        </template>
-    </client-only>
-
+    <Menu :open="menuOpen"></Menu>
 </template>
 
 <script setup lang="ts">

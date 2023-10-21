@@ -1,7 +1,7 @@
 <template>
     <footer id="footer"
             class=" relative w-full text-lg pt-28 pb-28 lg:pb-36 flex flex-col items-center ">
-        <NuxtImg src="skipper_logo.svg.png" class="w-[140px]"></NuxtImg>
+        <NuxtImg format="webp" src="skipper_logo.svg.png" class="w-[140px]"></NuxtImg>
         <div class="w-full text-center">
             <h3 class="mb-8 font-heading my-10 text-3xl">Trattoria Skipper</h3>
             <div class="text-4xl max-w-[200px] mx-auto flex justify-around">
@@ -33,7 +33,7 @@
 const img = useImage()
 const footerBackgroundImgUrl = computed(() => `url('${img(
     'skipper_footer.svg.png',
-    {width: 1024}
+    {format: 'webp', width: 1024}
 )}')`);
 </script>
 

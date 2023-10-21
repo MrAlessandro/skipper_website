@@ -19,8 +19,9 @@ export default defineNuxtConfig({
     image: {
         inject: true,
         dir: 'assets/images',
+        format: ['webp'],
         quality: 80,
-        /*screens: {
+        screens: {
             'xs': 320,
             'sm': 640,
             'md': 768,
@@ -28,6 +29,6 @@ export default defineNuxtConfig({
             'xl': 1280,
             'xxl': 1536,
             '2xl': 1536
-        },*/
+        },
     },
 })

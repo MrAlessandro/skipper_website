@@ -1,14 +1,14 @@
 <template>
     <Navbar class="z-10"></Navbar>
-    <NuxtImg class="h-screen w-screen object-cover object-center" src="photo_book/home_hero.jpg"></NuxtImg>
+    <NuxtImg format="webp" class="h-screen w-screen object-cover object-center" src="photo_book/home_hero.webp"></NuxtImg>
     <section
         class="absolute top-0 left-0 right-0 h-screen w-screen flex items-center justify-center bg-primary-dark/80">
         <div class="flex flex-col items-center">
-            <NuxtImg class="w-[132px] mb-6" src="skipper_icon_light.svg"></NuxtImg>
+            <NuxtImg format="webp" class="w-[132px] mb-6" src="skipper_icon_light.svg"></NuxtImg>
             <h1 class="text-6xl md:text-7xl text-center text-light font-heading mb-8">
                 Trattoria<br class="md:hidden">&nbsp;Skipper
             </h1>
-            <NuxtImg class="w-[302px] md:w-[491px]" src="skipper_elements.svg"></NuxtImg>
+            <NuxtImg format="webp" class="w-[302px] md:w-[491px]" src="skipper_elements.svg"></NuxtImg>
             <scroll-indicator class="absolute top-[90vh] text-light"></scroll-indicator>
         </div>
     </section>
@@ -22,13 +22,13 @@
                     </p>
                 </div>
                 <div class="mt-12 lg:mt-0 flex items-end">
-                    <NuxtImg class="w-full" src="photo_book/2_688.jpg"></NuxtImg>
+                    <NuxtImg format="webp" class="w-full" src="photo_book/2_688.webp"></NuxtImg>
                 </div>
                 <div class="relative lg:col-span-2 flex flex-col lg:flex-row lg:justify-end">
-                    <NuxtImg class="lg:w-1/2" src="photo_book/3_688.jpg"></NuxtImg>
-                    <NuxtImg
+                    <NuxtImg format="webp" class="lg:w-1/2" src="photo_book/3_688.webp"></NuxtImg>
+                    <NuxtImg format="webp"
                         class="mt-6 lg:mt-0 lg:w-1/2 lg:absolute lg:border-canvas-lg border-light lg:top-1/2 left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2"
-                        src="photo_book/1_688.jpg"></NuxtImg>
+                        src="photo_book/1_688.webp"></NuxtImg>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
     </section>
     <section id="section-3" class="home-section">
         <parallax height="80vh">
-            <NuxtImg ref="section3Photo" id="section-3-photo" src="photo_book/4_1920.jpg"></NuxtImg>
+            <NuxtImg format="webp" ref="section3Photo" id="section-3-photo" src="photo_book/4_1920.webp"></NuxtImg>
         </parallax>
     </section>
     <section id="section-4" class="home-section pt-20" :style="{...section4BackgroundImg}">
@@ -109,7 +109,7 @@
     </section>
     <section id="section-5">
         <div class="relative container !max-w-[1280px]">
-            <NuxtImg src="photo_book/5_1048.jpg" class="w-full h-[400px] md:h-[680px] object-cover"></NuxtImg>
+            <NuxtImg format="webp" src="photo_book/5_1048.webp" class="w-full h-[400px] md:h-[680px] object-cover"></NuxtImg>
             <div
                 class="w-full md:absolute -top-32 left-1/2 md:-translate-x-1/3 lg:translate-x-0 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
                 <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">
@@ -121,7 +121,7 @@
     <section id="section-6" class="mt-10">
         <div id="section-6-inner" class="relative container md:pl-52 md:pt-40 !max-w-[1280px]"
              :style="{...section6BackgroundImg}">
-            <NuxtImg src="photo_book/6_1048.jpg" class="w-full h-[400px] md:h-[650px] object-cover"></NuxtImg>
+            <NuxtImg format="webp" src="photo_book/6_1048.webp" class="w-full h-[400px] md:h-[650px] object-cover"></NuxtImg>
             <!--            <div class="w-full md:absolute -top-32 left-1/2 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
                             <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">{{$t('section5.title')}}</h3>
                             <p class="text-lg text-light">{{$t('section5.body')}}</p>
@@ -148,7 +148,7 @@
             <div id="section-8-banner"
                  class="">
                 <div class="relative overflow-hidden p-8 md:p-12 h-full">
-                    <NuxtImg id="section-8-banner-bg-img" src="skipper_elements_crab.svg.png"
+                    <NuxtImg format="webp" id="section-8-banner-bg-img" src="skipper_elements_crab.svg.webp"
                              class="opacity-30 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[600px]"></NuxtImg>
                     <h5 class="font-heading text-4xl text-light mb-10">{{ $t('section8.bannerTitle') }}</h5>
                     <div class="grid grid-cols-2 md:grid-cols-1 md:gap-y-8 text-light items-end">
@@ -230,7 +230,7 @@ const head = useHead({
         },
         {
             rel: "mask-icon",
-            href: img("favicons/safari-pinned-tab.svg"),
+            href: img("favicons/safari-pinned-tab.svg.png"),
             color: "#0171bb",
         },
         {
@@ -263,29 +263,29 @@ const contents = reactive<object>({
 });
 
 const section1BackgroundImg = computed(() => {
-    const imgUrl = img('skipper_elements_clam_combo_2.svg.png', {width: 490})
+    const imgUrl = img('skipper_elements_clam_combo_2.svg.webp', {format: 'webp', width: 490})
     return {backgroundImage: `url('${imgUrl}')`}
 })
 const section2BackgroundImg = computed(() => {
-    const img1Url = img('skipper_elements_salmon_combo.svg.png', {width: 580})
-    const img2Url = img('skipper_elements_shrimps.svg.png', {width: 580})
+    const img1Url = img('skipper_elements_salmon_combo.svg.webp', {format: 'webp', width: 580})
+    const img2Url = img('skipper_elements_shrimps.svg.webp', {format: 'webp', width: 580})
     return {backgroundImage: `url('${img1Url}'), url('${img2Url}')`}
 })
 const section4BackgroundImg = computed(() => {
-    const img1Url = img('skipper_elements_crab.svg.png', {width: 580})
-    const img2Url = img('skipper_elements_lobster.svg.png', {width: 580})
+    const img1Url = img('skipper_elements_crab.svg.webp', {format: 'webp', width: 580})
+    const img2Url = img('skipper_elements_lobster.svg.webp', {format: 'webp', width: 580})
     return {backgroundImage: `url('${img1Url}'), url('${img2Url}')`}
 })
 const section6BackgroundImg = computed(() => {
-    const img1Url = img('skipper_elements_fish.svg.png', {width: 580})
+    const img1Url = img('skipper_elements_fish.svg.webp', {format: 'webp', width: 580})
     return {backgroundImage: `url('${img1Url}')`}
 })
 const section7BackgroundImg = computed(() => {
-    const img2Url = img('skipper_elements_clam_combo_2.svg.png', {width: 580})
+    const img2Url = img('skipper_elements_clam_combo_2.svg.webp', {format: 'webp', width: 580})
     return {backgroundImage: `url('${img2Url}')`}
 })
 const section8BackgroundImg = computed(() => {
-    const img2Url = img('skipper_elements_wheat.svg.png', {width: 580})
+    const img2Url = img('skipper_elements_wheat.svg.webp', {format: 'webp', width: 580})
     return {backgroundImage: `url('${img2Url}')`}
 })
 
