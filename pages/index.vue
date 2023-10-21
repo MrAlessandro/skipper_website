@@ -4,11 +4,11 @@
     <section
         class="absolute top-0 left-0 right-0 h-screen w-screen flex items-center justify-center bg-primary-dark/80">
         <div class="flex flex-col items-center">
-            <NuxtImg format="webp" class="w-[132px] mb-6" src="skipper_icon_light.svg"></NuxtImg>
+            <NuxtImg format="webp" class="w-[132px] mb-6" src="skipper_icon_light.svg.webp"></NuxtImg>
             <h1 class="text-6xl md:text-7xl text-center text-light font-heading mb-8">
                 Trattoria<br class="md:hidden">&nbsp;Skipper
             </h1>
-            <NuxtImg format="webp" class="w-[302px] md:w-[491px]" src="skipper_elements.svg"></NuxtImg>
+            <NuxtImg format="webp" class="w-[302px] md:w-[491px]" src="skipper_elements.svg.webp"></NuxtImg>
             <scroll-indicator class="absolute top-[90vh] text-light"></scroll-indicator>
         </div>
     </section>
@@ -239,7 +239,8 @@ const head = useHead({
         },
     ],
     script: [{
-        src: `https://maps.googleapis.com/maps/api/js?key=AIzaSyAGbxq8T1F7efMZm5qWC2FVF4AHiV0a7yU&libraries=places`
+        src: `https://maps.googleapis.com/maps/api/js?key=AIzaSyAGbxq8T1F7efMZm5qWC2FVF4AHiV0a7yU&libraries=places`,
+        async: true,
     }]
 })
 const seo = useSeoMeta({
