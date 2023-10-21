@@ -194,9 +194,58 @@ const {t} = useI18n()
 const img = useImage()
 const section3Photo = ref<HTMLImageElement | null>(null);
 const head = useHead({
+    meta: [
+        {
+            name: 'msapplication-TileColor',
+            content: '#f0faff',
+        },
+        {
+            name: 'msapplication-config',
+            content: img('favicons/browserconfig.xml'),
+        },
+
+
+    ],
+    link: [
+        {
+            rel: "apple-touch-icon",
+            sizes: "180x180",
+            href: img("favicons/apple-touch-icon.png"),
+        },
+        {
+            rel: "icon",
+            type: "image/png",
+            sizes: "32x32",
+            href: img("favicons/favicon-32x32.png"),
+        },
+        {
+            rel: "icon",
+            type: "image/png",
+            sizes: "16x16",
+            href: img("favicons/favicon-16x16.png"),
+        },
+        {
+            rel: "mask-icon",
+            href: img("favicons/safari-pinned-tab.svg"),
+            color: "#0171bb",
+        },
+        {
+            rel: "icon",
+            href: "favicon.ico",
+        },
+    ],
     script: [{
         src: `https://maps.googleapis.com/maps/api/js?key=AIzaSyAGbxq8T1F7efMZm5qWC2FVF4AHiV0a7yU&libraries=places`
     }]
+})
+const seo = useSeoMeta({
+    title: 'Trattoria Skipper',
+    ogTitle: 'Trattoria Skipper',
+    /*description: 'Trattoria Skipper Lucca, Ristorante di pesce nella zona di Santa maria del Giudice. Ricette di mare tradizionali da gustare sulle colline lucchesi.',*/
+    description: 'La Trattoria Skipper a Lucca è un delizioso ristorante di pesce situato nella pittoresca zona di Santa Maria del Giudice. Qui, gli amanti della cucina marinara possono deliziarsi con autentiche ricette di mare, preparate secondo la tradizione, e assaporare i sapori del Mediterraneo sulle affascinanti colline lucchesi. Un luogo ideale per un\'esperienza gastronomica indimenticabile immersi nella bellezza della Toscana.',
+    ogDescription: 'La Trattoria Skipper a Lucca è un delizioso ristorante di pesce situato nella pittoresca zona di Santa Maria del Giudice. Qui, gli amanti della cucina marinara possono deliziarsi con autentiche ricette di mare, preparate secondo la tradizione, e assaporare i sapori del Mediterraneo sulle affascinanti colline lucchesi. Un luogo ideale per un\'esperienza gastronomica indimenticabile immersi nella bellezza della Toscana.',
+    ogImage: img('skipper_icon.svg.png'),
+    twitterCard: 'summary_large_image',
 })
 const contents = reactive<object>({
     evidenceRecipes: [
