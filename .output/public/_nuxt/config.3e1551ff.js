@@ -1,1 +1,0 @@
-import{l as p,d as o}from"./entry.c7195837.js";import{r as i}from"./swiper-vue.a236e00f.js";const t={nuxt:{}},f=p(t);function s(){const n=o();return n._appConfig||(n._appConfig=i(f)),n._appConfig}export{s as u};

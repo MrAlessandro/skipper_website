@@ -243,15 +243,15 @@ const head = useHead({
         async: true,
     }]
 })
-/*const seo = useSeoMeta({
+const seo = useSeoMeta({
     title: 'Trattoria Skipper',
     ogTitle: 'Trattoria Skipper',
-    /!*description: 'Trattoria Skipper Lucca, Ristorante di pesce nella zona di Santa maria del Giudice. Ricette di mare tradizionali da gustare sulle colline lucchesi.',*!/
+    /*description: 'Trattoria Skipper Lucca, Ristorante di pesce nella zona di Santa maria del Giudice. Ricette di mare tradizionali da gustare sulle colline lucchesi.',*/
     description: 'La Trattoria Skipper a Lucca è un delizioso ristorante di pesce situato nella pittoresca zona di Santa Maria del Giudice. Qui, gli amanti della cucina marinara possono deliziarsi con autentiche ricette di mare, preparate secondo la tradizione, e assaporare i sapori del Mediterraneo sulle affascinanti colline lucchesi. Un luogo ideale per un\'esperienza gastronomica indimenticabile immersi nella bellezza della Toscana.',
     ogDescription: 'La Trattoria Skipper a Lucca è un delizioso ristorante di pesce situato nella pittoresca zona di Santa Maria del Giudice. Qui, gli amanti della cucina marinara possono deliziarsi con autentiche ricette di mare, preparate secondo la tradizione, e assaporare i sapori del Mediterraneo sulle affascinanti colline lucchesi. Un luogo ideale per un\'esperienza gastronomica indimenticabile immersi nella bellezza della Toscana.',
     ogImage: img('skipper_icon.svg.png'),
     twitterCard: 'summary_large_image',
-})*/
+})
 const contents = reactive<object>({
     evidenceRecipes: [
         {title: t('section2.evidenceRecipes[0].title'), caption: t('section2.evidenceRecipes[0].caption')},
