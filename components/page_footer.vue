@@ -18,9 +18,9 @@
                 5901 – 55100 Lucca (LU) Italia</a><br>
             <a class="underline hover:text-primary" href="tel:+390583379073">+39 0583 379073</a> | <a
             href="mailto:info@trattoriaskipper.it">info@trattoriaskipper.it</a><br>
-            P.I. 01771440466 | <a class="underline hover:text-primary" href="legal_informations_it.html">Informazioni
-            Legali</a> | <a class="underline hover:text-primary" href="privacy_policy_it.html">Privacy Policy e Cookie
-            Policy</a>
+            P.I. 01771440466 | <NuxtLink class="underline hover:text-primary" href="/legal_informations_it">Informazioni
+            Legali</NuxtLink> | <NuxtLink class="underline hover:text-primary" to="/privacy_policy_it">Privacy Policy e Cookie
+            Policy</NuxtLink>
         </div>
         <div class="mt-8 w-full max-w-[250px] mx-auto flex justify-around">
             <a class="underline hover:text-primary">Home</a>
@@ -40,6 +40,7 @@ const footerBackgroundImgUrl = computed(() => `url('${img(
 <style scoped>
 #footer:before {
     content: '';
+    pointer-events: none;
     @apply absolute bottom-0 right-0 left-0 w-full h-52 bg-no-repeat bg-cover opacity-60;
     background-image: v-bind(footerBackgroundImgUrl);;
 }
