@@ -7,7 +7,7 @@
             <nav>
                 <ul class="text-light">
                     <li class="text-3xl md:text-4xl mb-12"><a href="/" class="hover:text-primary-light">Home</a></li>
-                    <li class="text-3xl md:text-4xl"><a href="/" class="hover:text-primary-light">Menu</a></li>
+                    <li class="text-3xl md:text-4xl"><NuxtLink to="/menu" class="hover:text-primary-light">Men&ugrave;</NuxtLink></li>
                 </ul>
             </nav>
             <div class="fixed bottom-0 left-0 right-0 w-screen pb-4">

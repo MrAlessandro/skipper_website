@@ -23,8 +23,8 @@
             Policy</NuxtLink>
         </div>
         <div class="mt-8 w-full max-w-[250px] mx-auto flex justify-around">
-            <a class="underline hover:text-primary">Home</a>
-            <a class="underline hover:text-primary">Menu</a>
+            <NuxtLink to="/" class="underline hover:text-primary">Home</NuxtLink>
+            <NuxtLink to="/menu" class="underline hover:text-primary">Men&ugrave;</NuxtLink>
         </div>
     </footer>
 </template>
