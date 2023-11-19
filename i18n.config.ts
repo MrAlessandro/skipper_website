@@ -7,6 +7,64 @@ const messages = {
                     Lasciati sedurre dai sapori prelibati di frutti di mare freschi, dagli aromi mediterranei e
                     dall'arte culinaria dei nostri chef esperti.`
         },
+        holidays2023Section: {
+            title: "Trascorri le feste con noi",
+            body: "Festeggia il natale e il capodanno con le nostre specialità",
+            christmas: {
+                title: "Il nostro menù<br>per il pranzo Natale",
+                hintText: "25 Dicembre 2023",
+                startersTitle: "Antipasti",
+                starters: [
+                    "Sfogliata di salmone e verza su fonduta di pecorino tartufato",
+                ],
+                firstCoursesTitle: "Primi piatti",
+                firstCourses: [
+                    "Paccheri alla trabaccolara",
+                    "Risotto con gamberetti zucchine e zafferano",
+                ],
+                mainCoursesTitle: "Secondi piatti",
+                mainCourses: [
+                    "Gran fritto Skipper con verdure croccanti",
+                ],
+                dessertsTitle: "Desserts",
+                desserts: [
+                    "Dolce di Natale",
+                ],
+                beverageTitle: "Da bere",
+                beverage: "Il pranzo include Acqua, una selezione Vini firmata Skipper e Caffè",
+                priceTitle: "Prezzo",
+                price: "50",
+            },
+            newYear: {
+                title: "Il nostro menù<br>per il cenone<br>dell'ultimo dell'anno",
+                hintText: "31 Dicembre 2023",
+                startersTitle: "Antipasti",
+                starters: [
+                    "Crocchette di baccalà",
+                    "Patè di cernia",
+                    "Budino di salmone",
+                    "Calamari farciti",
+                    "Polpo bruschettato",
+                    "Gamberesa croccante",
+                ],
+                firstCoursesTitle: "Primi piatti",
+                firstCourses: [
+                    "Paccheri sullo scorfano e broccoletti",
+                    "Risotto ai moscardini",
+                ],
+                mainCoursesTitle: "Secondi piatti",
+                mainCourses: [
+                    "Filetto di branzino con sformato di patate su salsa tartufata",
+                ],
+                beverageTitle: "Da bere",
+                beverage: "Il pranzo include Acqua, <span class='underline'>dessert</span>,<br>Vini e spumanti selezione Skipper e Caffè",
+                notes: "Serata con intrattenimento musicale",
+                priceTitle: "Prezzo",
+                price: "90",
+            },
+            contactBannerTitle: "Ti aspettiamo",
+            contactBannerSubTitle: "Info e prenotazioni",
+        },
         section2: {
             title: 'Le nostre specialità',
             body: 'Esplora i nostri piatti, un viaggio di sapori unici.<br>Dal mare alla terra.',

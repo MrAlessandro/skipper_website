@@ -1,6 +1,7 @@
 <template>
     <Navbar class="z-10"></Navbar>
-    <NuxtImg format="webp" class="h-screen w-screen object-cover object-center" src="photo_book/home_hero.webp"></NuxtImg>
+    <NuxtImg format="webp" class="h-screen w-screen object-cover object-center"
+             src="photo_book/home_hero.webp"></NuxtImg>
     <section
         class="absolute top-0 left-0 right-0 h-screen w-screen flex items-center justify-center bg-primary-dark/80">
         <div class="flex flex-col items-center">
@@ -9,7 +10,7 @@
                 Trattoria<br class="md:hidden">&nbsp;Skipper
             </h1>
             <NuxtImg format="webp" class="w-[302px] md:w-[491px]" src="skipper_elements.svg.webp"></NuxtImg>
-            <scroll-indicator class="absolute top-[90vh] text-light"></scroll-indicator>
+            <scroll-indicator class="absolute top-[90dvh] text-light"></scroll-indicator>
         </div>
     </section>
     <section id="section-1" class="home-section" :style="{...section1BackgroundImg}">
@@ -27,8 +28,114 @@
                 <div class="relative lg:col-span-2 flex flex-col lg:flex-row lg:justify-end">
                     <NuxtImg format="webp" class="lg:w-1/2" src="photo_book/3_688.webp"></NuxtImg>
                     <NuxtImg format="webp"
-                        class="mt-6 lg:mt-0 lg:w-1/2 lg:absolute lg:border-canvas-lg border-light lg:top-1/2 left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2"
-                        src="photo_book/1_688.webp"></NuxtImg>
+                             class="mt-6 lg:mt-0 lg:w-1/2 lg:absolute lg:border-canvas-lg border-light lg:top-1/2 left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2"
+                             src="photo_book/1_688.webp"></NuxtImg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-holidays2023" class="home-section" :style="{...sectionHolidays2023}">
+        <div class="container relative pt-24">
+            <div class="text-center">
+                <h2 class="font-heading text-5xl lg:text-6xl mb-4">{{ $t('holidays2023Section.title') }}</h2>
+                <p class="text-lg" v-html="$t('holidays2023Section.body')"></p>
+            </div>
+            <div class="text-left pt-16">
+                <h2 class="font-heading text-4xl lg:text-5xl mb-2"
+                    v-html="$t('holidays2023Section.christmas.title')"></h2>
+                <small class="block text-gray-400 mb-4" v-html="$t('holidays2023Section.christmas.hintText')"></small>
+                <div class="holiday-menu grid grid-cols-1 gap-y-8">
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.christmas.startersTitle')"></span>
+                        <template v-for="index in 1">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.christmas.starters[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.christmas.firstCoursesTitle')"></span>
+                        <template v-for="index in 2">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.christmas.firstCourses[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.christmas.mainCoursesTitle')"></span>
+                        <template v-for="index in 1">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.christmas.mainCourses[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.christmas.dessertsTitle')"></span>
+                        <template v-for="index in 1">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.christmas.desserts[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <!--                    <span class="holiday-menu-course-title text-lg font-bold" v-html="$t('holidays2023Section.christmas.beverageTitle')"></span>-->
+                    <span class="holiday-menu-extra text-lg italic"
+                          v-html="$t('holidays2023Section.christmas.beverage')"></span>
+                    <div class="">
+                        <span class="holiday-menu-price-title font-bold text-lg" v-html="$t('holidays2023Section.christmas.priceTitle')"></span>
+                        &nbsp;&nbsp;
+                        <span class="holiday-menu-price text-lg">{{$t('holidays2023Section.christmas.price')}} &euro; per persona</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-right pt-16">
+                <h2 class="font-heading text-4xl lg:text-5xl mb-2"
+                    v-html="$t('holidays2023Section.newYear.title')"></h2>
+
+                <small class="block text-gray-400 mb-4" v-html="$t('holidays2023Section.newYear.hintText')"></small>
+                <div class="holiday-menu grid grid-cols-1 gap-y-8">
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.newYear.startersTitle')"></span>
+                        <template v-for="index in 6">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.newYear.starters[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.newYear.firstCoursesTitle')"></span>
+                        <template v-for="index in 2">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.newYear.firstCourses[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <div class="holiday-menu-course-item-wrapper"><span
+                        class="holiday-menu-course-title text-lg font-bold"
+                        v-html="$t('holidays2023Section.newYear.mainCoursesTitle')"></span>
+                        <template v-for="index in 1">
+                            <div class="holiday-menu-course-item"
+                                 v-html="$t(`holidays2023Section.newYear.mainCourses[${index -1 }]`)"></div>
+                        </template>
+                    </div>
+                    <!--                    <span class="holiday-menu-course-title text-lg font-bold" v-html="$t('holidays2023Section.newYear.beverageTitle')"></span>-->
+                    <span class="holiday-menu-extra text-lg italic"
+                          v-html="$t('holidays2023Section.newYear.beverage')"></span>
+                    <div class="">
+                        <span class="holiday-menu-price-title font-bold text-lg" v-html="$t('holidays2023Section.newYear.priceTitle')"></span>
+                        &nbsp;&nbsp;
+                        <span class="holiday-menu-price text-lg">{{$t('holidays2023Section.newYear.price')}} &euro; per persona</span>
+                    </div>
+                </div>
+            </div>
+            <div id="section-holidays2023-contact-banner" class="md:absolute md:top-2/3 mt-10 md:mt-0">
+                <div class="relative h-56 bg-primary text-light p-10 overflow-hidden">
+                    <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl mb-4 md:text-right">{{ $t('holidays2023Section.contactBannerTitle') }}</h2>
+                    <span class="block md:text-right text-lg" v-html="$t('holidays2023Section.contactBannerSubTitle')"></span>
+                    <div class="block md:text-right text-lg">
+                        <a class="underline" href="tel:+390583379073">0583 379073</a>
+                    </div>
+                    <NuxtImg format="webp" src="christmas_graphic.webp"
+                             class="absolute opacity-30 top-[-2rem] right-[0rem] md:left-[-6rem] h-[120%] object-cover"></NuxtImg>
                 </div>
             </div>
         </div>
@@ -109,7 +216,8 @@
     </section>
     <section id="section-5">
         <div class="relative container !max-w-[1280px]">
-            <NuxtImg format="webp" src="photo_book/5_1048.webp" class="w-full h-[400px] md:h-[680px] object-cover"></NuxtImg>
+            <NuxtImg format="webp" src="photo_book/5_1048.webp"
+                     class="w-full h-[400px] md:h-[680px] object-cover"></NuxtImg>
             <div
                 class="w-full md:absolute -top-32 left-1/2 md:-translate-x-1/3 lg:translate-x-0 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
                 <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">
@@ -121,7 +229,8 @@
     <section id="section-6" class="mt-10">
         <div id="section-6-inner" class="relative container md:pl-52 md:pt-40 !max-w-[1280px]"
              :style="{...section6BackgroundImg}">
-            <NuxtImg format="webp" src="photo_book/6_1048.webp" class="w-full h-[400px] md:h-[650px] object-cover"></NuxtImg>
+            <NuxtImg format="webp" src="photo_book/6_1048.webp"
+                     class="w-full h-[400px] md:h-[650px] object-cover"></NuxtImg>
             <!--            <div class="w-full md:absolute -top-32 left-1/2 md:w-[490px] md:h-[490px] bg-primary-dark flex flex-col justify-around p-10 md:border-canvas-lg md:border-light mt-8 md:mt-0">
                             <h3 class="font-heading text-6xl lg:text-7xl text-light md:whitespace-nowrap mb-8 md:mb-0">{{$t('section5.title')}}</h3>
                             <p class="text-lg text-light">{{$t('section5.body')}}</p>
@@ -268,6 +377,15 @@ const section1BackgroundImg = computed(() => {
     const imgUrl = img('skipper_elements_clam_combo_2.svg.webp', {format: 'webp', width: 490})
     return {backgroundImage: `url('${imgUrl}')`}
 })
+const sectionHolidays2023 = computed(() => {
+    const imgUrl1 = img('cristmas_garland.webp', {format: 'webp', width: 490})
+    const imgUrl2 = img('glasses.webp', {format: 'webp', width: 490})
+    return {backgroundImage: `url('${imgUrl1}'), url('${imgUrl2}')`}
+})
+const sectionHolidays2023ContactsBanner = computed(() => {
+    const imgUrl1 = img('christmas_graphic.webp', {format: 'webp', width: 490})
+    return {backgroundImage: `url('${imgUrl1}')`}
+})
 const section2BackgroundImg = computed(() => {
     const img1Url = img('skipper_elements_salmon_combo.svg.webp', {format: 'webp', width: 580})
     const img2Url = img('skipper_elements_shrimps.svg.webp', {format: 'webp', width: 580})
@@ -331,7 +449,7 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 #section-1 {
     @apply bg-[length:300px] md:bg-auto;
     background-position: center 2rem;
@@ -340,6 +458,30 @@ onMounted(() => {
 @media screen(lg) {
     #section-1 {
         background-position: calc(50% - 3rem) 2rem;
+    }
+}
+
+#section-holidays2023 {
+    background-size: 250px, 250px;
+    background-position: right -5rem top 8rem, left bottom 20rem;
+}
+
+
+@media screen(md) {
+    #section-holidays2023 {
+        background-size: 400px, 350px;
+        background-position: right -5rem top 8rem, left 40% bottom 10rem;
+    }
+}
+
+#section-holidays2023-contact-banner {
+    background-size: 250px;
+    background-position: center;
+}
+
+
+@media screen(md) {
+    #section-holidays2023-contact-banner {
     }
 }
 

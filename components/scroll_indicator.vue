@@ -11,7 +11,7 @@ const scrollTop = ref<boolean>(true);
 
 onMounted(() => {
     window.addEventListener('scroll', () => {
-        scrollTop.value = window.scrollY == 0;
+        scrollTop.value = window.scrollY <= 0;
     });
 })
 </script>
