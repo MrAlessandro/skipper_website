@@ -65,6 +65,36 @@ const messages = {
             contactBannerTitle: "Ti aspettiamo",
             contactBannerSubTitle: "Info e prenotazioni",
         },
+        carnival2024Section: {
+            title: "Il nostro carnevale",
+            body: "Festeggia il con noi la festa più pazza che ci sia!",
+            carnival: {
+                title: "Il nostro menù<br>per la cena di carnevale",
+                hintText: "01 Febbraio 2024",
+                firstCoursesTitle: "Primi piatti",
+                firstCourses: [
+                    "Rigatoni del pescatore",
+                    "Risotto radicchio e taleggio",
+                ],
+                mainCoursesTitle: "Secondi piatti",
+                mainCourses: [
+                    "Totani ripieni",
+                    "Rovelline lucchesi",
+                ],
+                dessertsTitle: "Desserts",
+                desserts: [
+                    "Chiacchiere e frittelle a volontà!",
+                ],
+                beverageTitle: "Da bere",
+                beverage: "La cena include<br>Acqua, Vino e Caffè",
+                priceTitle: "Prezzo",
+                price: "25",
+            },
+            contactBannerTitle: "Scendi in pista",
+            contactBannerTitle2: "Ti aspettiamo",
+            contactBannerSubTitle: "Live Karaoke e balli<br>con Remo Togna",
+            contactBannerSubTitle2: "Info e prenotazioni",
+        },
         section2: {
             title: 'Le nostre specialità',
             body: 'Esplora i nostri piatti, un viaggio di sapori unici.<br>Dal mare alla terra.',
