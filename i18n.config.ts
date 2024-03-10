@@ -95,6 +95,36 @@ const messages = {
             contactBannerSubTitle: "Live Karaoke e balli<br>con Remo Togna",
             contactBannerSubTitle2: "Info e prenotazioni",
         },
+        easter2024Section: {
+            title: "Trascorri la pasqua con noi",
+            body: "Celebra insieme a noi la gioia della Pasqua<br>con il nostro pranzo speciale",
+            easter: {
+                title: "Il nostro menù<br>per il pranzo",
+                hintText: "31 Marzo 2024",
+                startersTitle: "Antipasti",
+                starters: [
+                    "Tris di antipasti di mare",
+                ],
+                firstCoursesTitle: "Primi piatti",
+                firstCourses: [
+                    "Paccheri con pesce spada,<br>pomodorini secchi e capperi",
+                    "Risotto con frutti di mare",
+                ],
+                mainCoursesTitle: "Secondi piatti",
+                mainCourses: [
+                    "Gran fritto skipper",
+                ],
+                dessertsTitle: "Desserts",
+                desserts: [
+                    "Chiacchiere e frittelle a volontà!",
+                ],
+                beverageTitle: "Da bere",
+                beverage: "Il pranzo include<br>Acqua, Vino, Dessert e Caffè",
+                priceTitle: "Prezzo",
+                price: "50",
+            },
+            downloadPoster: "Scarica la locandina",
+        },
         section2: {
             title: 'Le nostre specialità',
             body: 'Esplora i nostri piatti, un viaggio di sapori unici.<br>Dal mare alla terra.',
